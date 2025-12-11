@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace JoinedList
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Student> students = new List<Student>
+            {
+                new Student { id = 1, name = "Anil" },
+                new Student { id = 2, name = "Bina" },
+                new Student { id = 3, name = "Chetan" }
+            };
+            List<Marks> marks = new List<Marks> {
+                new Marks { studentId = 1, subject = "Math", score = 78 }
+
+
+            };
+
+            foreach (var s in students)
+                s.Display();
+
+            foreach (var m in marks)
+                m.Display();
+
+        }
+    }
+}
+
+class Student
+{
+    public int id { get; set; }
+    public string name { get; set; }
+
+    public void Display()
+    {
+        Console.WriteLine("ID: " + id + ", Name: " + name);
+    }
+}
+
+class Marks
+{
+    public int studentId { get; set; }
+    public string subject { get; set; }
+    public int score { get; set; }
+
+    public void Display()
+    {
+        Console.WriteLine("Student ID: " + studentId + ", Subject: " + subject + ", Score: " + score);
+    }
+}

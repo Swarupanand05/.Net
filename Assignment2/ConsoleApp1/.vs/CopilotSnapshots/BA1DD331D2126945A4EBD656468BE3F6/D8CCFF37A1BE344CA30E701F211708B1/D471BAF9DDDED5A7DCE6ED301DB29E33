@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Book> books = new List<Book>()
+            {
+                 Book(1, "C# in Depth", "Jon Skeet", 750),
+                 Book(2, "Pro ASP.NET Core", "Adam Freeman", 600),
+                 Book(3, "Clean Code", "Robert C. Martin", 450),
+                 Book(4, "The Pragmatic Programmer", "Andrew Hunt", 500),
+                 Book(5, "Design Patterns", "Erich Gamma", 650),
+                 Book(6, "Head First Design", "Eric Freeman", 350),
+                 Book(7, "Algorithms", "Robert Sedgewick", 800),
+                 Book(8, "Introduction to Algorithms", "Thomas H. Cormen", 900),
+                 Book(9, "Refactoring", "Martin Fowler", 550),
+                 Book(10, "Programming Pearls", "Jon Bentley", 300)
+            };
+        }
+    }
+}
+class Book
+{
+    public int id { get; set; }
+    public string title { get; set; }
+    public string author { get; set; }
+    public int price{ get; set; }
+}

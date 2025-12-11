@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\Assignments\\DictionaryDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4CC4A9-4CBE-47A9-B0D7-CAF7037D35A1}|StringList\\StringList.csproj|d:\\.net\\assignments\\dictionarydemo\\stringlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4CC4A9-4CBE-47A9-B0D7-CAF7037D35A1}|StringList\\StringList.csproj|solutionrelative:stringlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0C6339-786B-4E32-86B0-7ABE9087B74C}|JoinedList\\JoinedList.csproj|d:\\.net\\assignments\\dictionarydemo\\joinedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0C6339-786B-4E32-86B0-7ABE9087B74C}|JoinedList\\JoinedList.csproj|solutionrelative:joinedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{911B698B-D375-4214-9732-6F453E712626}|LinQDemo1\\LinQDemo1.csproj|d:\\.net\\assignments\\dictionarydemo\\linqdemo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{911B698B-D375-4214-9732-6F453E712626}|LinQDemo1\\LinQDemo1.csproj|solutionrelative:linqdemo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEBFA75-0836-4325-9150-7F7A85F6F611}|LINQDemo\\LINQDemo.csproj|d:\\.net\\assignments\\dictionarydemo\\linqdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEBFA75-0836-4325-9150-7F7A85F6F611}|LINQDemo\\LINQDemo.csproj|solutionrelative:linqdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3B6FED-C8B7-4EFF-BD62-8F2B294623E9}|CollectionDemo\\CollectionDemo.csproj|d:\\.net\\assignments\\dictionarydemo\\collectiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3B6FED-C8B7-4EFF-BD62-8F2B294623E9}|CollectionDemo\\CollectionDemo.csproj|solutionrelative:collectiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2DBFE3-19E3-0B82-752A-C23EE7F2C22F}|DictionaryDemo\\DictionaryDemo.csproj|d:\\.net\\assignments\\dictionarydemo\\dictionarydemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2DBFE3-19E3-0B82-752A-C23EE7F2C22F}|DictionaryDemo\\DictionaryDemo.csproj|solutionrelative:dictionarydemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.net\\Assignments\\Assignment2\\Assignment2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\DictionaryDemo\\StringList\\Program.cs",
+              "RelativeDocumentMoniker": "StringList\\Program.cs",
+              "ToolTip": "D:\\.net\\Assignments\\DictionaryDemo\\StringList\\Program.cs",
+              "RelativeToolTip": "StringList\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:58:41.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\DictionaryDemo\\JoinedList\\Program.cs",
+              "RelativeDocumentMoniker": "JoinedList\\Program.cs",
+              "ToolTip": "D:\\.net\\Assignments\\DictionaryDemo\\JoinedList\\Program.cs",
+              "RelativeToolTip": "JoinedList\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADgvz8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:42:52.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\DictionaryDemo\\LinQDemo1\\Program.cs",
+              "RelativeDocumentMoniker": "LinQDemo1\\Program.cs",
+              "ToolTip": "D:\\.net\\Assignments\\DictionaryDemo\\LinQDemo1\\Program.cs",
+              "RelativeToolTip": "LinQDemo1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:48:51.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\DictionaryDemo\\CollectionDemo\\Program.cs",
+              "RelativeDocumentMoniker": "CollectionDemo\\Program.cs",
+              "ToolTip": "D:\\.net\\Assignments\\DictionaryDemo\\CollectionDemo\\Program.cs",
+              "RelativeToolTip": "CollectionDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:32:24.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\DictionaryDemo\\LINQDemo\\Program.cs",
+              "RelativeDocumentMoniker": "LINQDemo\\Program.cs",
+              "ToolTip": "D:\\.net\\Assignments\\DictionaryDemo\\LINQDemo\\Program.cs",
+              "RelativeToolTip": "LINQDemo\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:29:58.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\Assignment2\\Assignment2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Assignment2\\Assignment2\\Program.cs",
+              "ToolTip": "D:\\.net\\Assignments\\Assignment2\\Assignment2\\Program.cs",
+              "RelativeToolTip": "..\\Assignment2\\Assignment2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:22:45.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\DictionaryDemo\\DictionaryDemo\\Program.cs",
+              "RelativeDocumentMoniker": "DictionaryDemo\\Program.cs",
+              "ToolTip": "D:\\.net\\Assignments\\DictionaryDemo\\DictionaryDemo\\Program.cs",
+              "RelativeToolTip": "DictionaryDemo\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T10:36:10.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace DictionaryDemo
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary<int, string> students = new Dictionary<int, string>();
+            students.Add(1, "Alice");
+            students.Add(2, "Bob");
+            students.Add(3, "Charlie");
+
+            foreach (KeyValuePair<int, string> student in students)
+            {
+                Console.WriteLine("Roll No: " + student.Key + ", Name: " + student.Value);
+            }
+            //Search and display student name if roll number is provided.
+            Console.WriteLine("Enter roll No :");
+            int rollno = 
+
+
+        }
+    }
+}
+
+
+class Student
+{
+    public int rollNo { get; set; }
+    public string name { get; set; }
+}
