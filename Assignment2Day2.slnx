@@ -1,8 +1,0 @@
-<Solution>
-  <Project Path="CollectionDemo/CollectionDemo.csproj" Id="cb3b6fed-c8b7-4eff-bd62-8f2b294623e9" />
-  <Project Path="DictionaryDemo/DictionaryDemo.csproj" />
-  <Project Path="JoinedList/JoinedList.csproj" Id="bf0c6339-786b-4e32-86b0-7abe9087b74c" />
-  <Project Path="LINQDemo/LINQDemo.csproj" Id="3aebfa75-0836-4325-9150-7f7a85f6f611" />
-  <Project Path="LinQDemo1/LinQDemo1.csproj" Id="911b698b-d375-4214-9732-6f453e712626" />
-  <Project Path="StringList/StringList.csproj" Id="5b4cc4a9-4cbe-47a9-b0d7-caf7037d35a1" />
-</Solution>
