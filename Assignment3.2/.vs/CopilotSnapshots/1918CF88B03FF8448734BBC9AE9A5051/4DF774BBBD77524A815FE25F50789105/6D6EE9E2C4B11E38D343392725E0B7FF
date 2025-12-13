@@ -1,0 +1,133 @@
+﻿using System;
+using System.Linq;
+namespace Manager___Staff_Task_Management
+{
+    internal class Program
+    {
+        static TaskContext tc = new TaskContext();
+        static void Main(string[] args)
+        {
+            int choice;
+
+
+            do
+            {
+                Console.WriteLine("1. Add Manager\n2. Add Staff (assign to Manager)\n3. Add Task (assign to Staff)\n4. View all Managers, Staff & Tasks\n5. Update Task (mark as completed)\n6. Delete Task\n7. Exit\n");
+                Console.WriteLine("=========================================================");
+                choice = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("---------------------------------------------------------");
+
+                switch (choice)
+                {
+                    case 1:
+                        AddManager();
+                        if (true)
+                            Console.WriteLine("Manager Added Sucessfully...");
+
+                        break;
+                    case 2:
+                        AddStaff();
+                        break;
+                    case 3:
+                        AddTask();
+
+                        break;
+                    case 4:
+
+                        break;
+                    case 5:
+
+                        break;
+                    case 6:
+
+                        break;
+                    case 7:
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice. Please try again.");
+                        break;
+                }
+
+
+
+
+            } while (choice != 0);
+        }
+
+        //Add Manager
+        public static void AddManager()
+        {
+            Manager manager = new Manager();
+            Console.WriteLine("Enter Manager Name:");
+            manager.Name = Console.ReadLine();
+            Console.WriteLine("Enter Manager Email:");
+            manager.Email = Console.ReadLine();
+            tc.Managers.Add(manager);
+            tc.SaveChanges();
+        }
+
+        //Add Staff (assign to Manager)
+        public static void AddStaff()
+        {
+            Console.WriteLine("How many staff you want to add ?");
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < n; i++)
+            {
+                Staff staff = new Staff();
+                Console.WriteLine("Enter Staff Name:");
+                staff.Name = Console.ReadLine();
+                Console.WriteLine("Enter Staff Email:");
+                staff.Email = Console.ReadLine();
+                Console.WriteLine("Available Managers:");
+                var managers = tc.Managers.ToList();
+                foreach (var mgr in managers)
+                {
+                    Console.WriteLine($"ID: {mgr.ManagerId}, Name: {mgr.Name}");
+                }
+                Console.WriteLine("Enter Manager ID to assign:");
+                int managerId = Convert.ToInt32(Console.ReadLine());
+                staff.ManagerId = managerId;
+                tc.Staffs.Add(staff);
+                Console.WriteLine("Staff Added Successfully...");
+            }
+             tc.SaveChanges();
+        }
+
+        //Add Task (assign to Staff)
+        public static void AddTask()
+        {
+            var staffs = tc.Staffs.ToList();
+            foreach (var staff in staffs)
+            {
+                Console.WriteLine($"ID: {staff.StaffId}, Name: {staff.Name}");
+            }
+
+            Console.WriteLine("Enter StaffID that you wnat to assign work");
+            if (!int.TryParse(Console.ReadLine(), out int staffId))
+            {
+                Console.WriteLine("Invalid input.");
+                return;
+            }
+
+            if (!tc.Staffs.Any(s => s.StaffId == staffId))
+            {
+                Console.WriteLine("Staff ID not found.");
+                return;
+            }
+
+            TaskItem taskItem = new TaskItem();
+            Console.WriteLine("Enter task title to assign:");
+            string taskname = Console.ReadLine();
+            taskItem.Title = taskname;
+            Console.WriteLine("Enter task description (optional):");
+            string desc = Console.ReadLine();
+            taskItem.Description = desc;
+            taskItem.IsCompleted = false;
+            taskItem.StaffId = staffId;
+            tc.TaskItems.Add(taskItem);
+            Console.WriteLine("Task added Sucessfully");
+            tc.SaveChanges();
+
+        }
+    }
+}
