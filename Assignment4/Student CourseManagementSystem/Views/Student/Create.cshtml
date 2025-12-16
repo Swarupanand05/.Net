@@ -1,0 +1,33 @@
+﻿@model StudentCourseManagementSystem.Models.Student
+
+<html>
+<head>
+    <title>Create Student</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <h2>Create New Student</h2>
+
+    <form action="/Student/AfterCreate" method="post">
+        <table class="table">
+
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="FirstName" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="LastName" class="form-control" required /></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="submit" class="btn btn-success">Create</button>
+                    <a href="/Student/Index" class="btn btn-secondary">Cancel</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

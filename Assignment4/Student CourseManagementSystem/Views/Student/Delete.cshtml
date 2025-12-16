@@ -1,0 +1,26 @@
+﻿@model StudentCourseManagementSystem.Models.Student
+
+<html>
+<head>
+    <title>Delete Student</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <h2>Confirm Deletion</h2>
+    <h3 class="text-danger">Are you sure you want to delete the student: @Model.FirstName @Model.LastName (ID: @Model.StudentId)?</h3>
+
+    <form action="/Student/AfterDelete" method="post">
+        <input type="hidden" name="StudentId" value="@Model.StudentId" />
+
+        <table class="table">
+            <tr>
+                <td>
+                    <button type="submit" class="btn btn-danger">Confirm Delete</button>
+                    <a href="/Student/Index" class="btn btn-secondary">Cancel</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

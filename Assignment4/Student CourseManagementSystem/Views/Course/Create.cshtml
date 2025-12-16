@@ -1,0 +1,40 @@
+﻿@model StudentCourseManagementSystem.Models.Course
+
+<html>
+<head>
+    <title>Create New Course</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <form action="/Course/AfterCreate" method="post">
+        <table class="table">
+
+            <tr>
+                <td>Course Name</td>
+                <td><input type="text" name="CourseName" class="form-control" required /></td>
+            </tr>
+
+            <tr>
+                <td>Assign to Student</td>
+                <td>
+                    <select name="StudentId" class="form-control" required>
+                        <option value="">-- Select Student --</option>
+                        @foreach (var student in ViewBag.StudentList)
+                        {
+                            <option value="@student.Value">@student.Text</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="submit" class="btn btn-success">Create Course</button>
+                    <a href="/Course/Index" class="btn btn-secondary">Cancel</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

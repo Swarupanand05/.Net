@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\Assignments\\Assignment4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|d:\\.net\\assignments\\assignment4\\student coursemanagementsystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|solutionrelative:student coursemanagementsystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|d:\\.net\\assignments\\assignment4\\student coursemanagementsystem\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|solutionrelative:student coursemanagementsystem\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|d:\\.net\\assignments\\assignment4\\student coursemanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|solutionrelative:student coursemanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|d:\\.net\\assignments\\assignment4\\student coursemanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|solutionrelative:student coursemanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|d:\\.net\\assignments\\assignment4\\student coursemanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|solutionrelative:student coursemanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|d:\\.net\\assignments\\assignment4\\student coursemanagementsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|solutionrelative:student coursemanagementsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|d:\\.net\\assignments\\assignment4\\student coursemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207B688D-014E-D982-1C13-97E84985D46C}|Student CourseManagementSystem\\StudentCourseManagementSystem.csproj|solutionrelative:student coursemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student CourseManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Student CourseManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T04:21:11.592Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Student CourseManagementSystem\\Models\\Student.cs",
+              "ToolTip": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Models\\Student.cs",
+              "RelativeToolTip": "Student CourseManagementSystem\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:24:59.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Student CourseManagementSystem\\Models\\Course.cs",
+              "ToolTip": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Models\\Course.cs",
+              "RelativeToolTip": "Student CourseManagementSystem\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:24:42.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "Student CourseManagementSystem\\Views\\Course\\Create.cshtml",
+              "ToolTip": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "Student CourseManagementSystem\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T04:41:34.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Student CourseManagementSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Student CourseManagementSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T03:16:40.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Student CourseManagementSystem\\Controllers\\CourseController.cs",
+              "ToolTip": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Student CourseManagementSystem\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T03:13:37.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Student CourseManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.net\\Assignments\\Assignment4\\Student CourseManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Student CourseManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T16:36:40.046Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

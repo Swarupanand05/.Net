@@ -1,0 +1,35 @@
+@model StudentCourseManagementSystem.Models.Student
+
+<html>
+< head >
+    < title > Edit Student </ title >
+</ head >
+< body >
+    < h2 > Edit Student: @Model.FirstName @Model.LastName </ h2 >
+
+    < form action = "/Student/AfterEdit" method = "post" >
+        < input type = "hidden" name = "StudentId" value = "@Model.StudentId" />
+
+
+        < table class= "table" >
+
+            < tr >
+                < td > First Name </ td >
+                < td >< input type = "text" name = "FirstName" value = "@Model.FirstName" class= "form-control" required /></ td >
+            </ tr >
+            < tr >
+                < td > Last Name </ td >
+                < td >< input type = "text" name = "LastName" value = "@Model.LastName" class= "form-control" required /></ td >
+            </ tr >
+
+
+            < tr >
+              < td >
+                  < button type = "submit" class= "btn btn-warning" > Save Changes </ button >
+                  < a href = "/Student/Index" class= "btn btn-secondary" > Cancel </ a >
+              </ td >
+            </ tr >
+        </ table >
+    </ form >
+</ body >
+</ html >

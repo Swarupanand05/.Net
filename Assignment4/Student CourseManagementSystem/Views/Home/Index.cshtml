@@ -1,0 +1,60 @@
+﻿@model List<StudentCourseManagementSystem.Models.Student>
+
+<html>
+<head>
+    <title>Home - Student List</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    
+    <p>
+        <a href="/Student/Create" class="btn btn-primary">Add New Student</a>
+        </t>
+        <a href="/Course/Index" class="btn btn-info">Manage Courses</a>
+    </p>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Student Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Courses</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>
+                        @if (student.Courses != null && student.Courses.Any())
+                        {
+                            <ul class="mb-0 list-unstyled">
+                                @foreach (var course in student.Courses)
+                                {
+                                    <li>@course.CourseName</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span class="text-danger">No Courses</span>
+                        }
+                    </td>
+                    <td>
+                        <a href="/Student/Edit/@student.StudentId" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="/Student/Delete/@student.StudentId" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

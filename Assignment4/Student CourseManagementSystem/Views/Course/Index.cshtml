@@ -1,0 +1,51 @@
+﻿@model List<StudentCourseManagementSystem.Models.Course>
+
+<html>
+<head>
+    <title>Manage Courses</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+   
+    <p>
+        <a href="/Course/Create" class="btn btn-primary">Add New Course</a>
+        <a href="/Home/Index" class="btn btn-info">Back to Home</a>
+    </p>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Course Id</th>
+                <th>Course Name</th>
+                <th>Assigned Student</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var course in Model)
+            {
+                <tr>
+                    <td>@course.CourseId</td>
+                    <td>@course.CourseName</td>
+                    <td>
+                        @if (course.Student != null)
+                        {
+                            @course.Student.FirstName  @course.Student.LastName
+                        }
+                        else
+                        {
+                            <span class="text-muted">Unassigned</span>
+                        }
+                    </td>
+                    <td>
+                        <a href="/Course/Edit/@course.CourseId" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="/Course/Delete/@course.CourseId" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
